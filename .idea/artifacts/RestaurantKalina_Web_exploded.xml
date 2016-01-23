@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RestaurantKalina:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/RestaurantKalina_Web_exploded</output-path>
+    <root id="archive" name="RestaurantKalina_Web exploded.war">
+      <element id="javaee-facet-resources" facet="RestaurantKalina/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="RestaurantKalina/web/Web" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
