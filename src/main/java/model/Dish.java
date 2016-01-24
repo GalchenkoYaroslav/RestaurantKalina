@@ -9,14 +9,16 @@ public class Dish {
     private String name;
     private String descriptions;
     private Double cost;
+    private Category category;
 
     public Dish() {
     }
 
-    public Dish(String name, String descriptions, Double cost) {
+    public Dish(String name, String descriptions, Double cost, Category category) {
         this.name = name;
         this.descriptions = descriptions;
         this.cost = cost;
+        this.category = category;
     }
 
     public String getName() {
@@ -60,5 +62,5 @@ public class Dish {
         this.category = category;
     }
 
-    private Category category;
+
 }
