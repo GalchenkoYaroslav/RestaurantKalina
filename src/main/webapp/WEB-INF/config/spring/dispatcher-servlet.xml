@@ -12,11 +12,11 @@
 
 
     <bean class="org.springframework.webflow.mvc.servlet.FlowHandlerMapping">
-        <property name="flowRegistry" ref="flowRegistry"/>
+        <property name="flowRegistry" ref="mainFlowRegistry"/>
     </bean>
 
-    <bean class="org.springframework.faces.webflow.JsfFlowHandlerAdapter">
-        <property name="flowExecutor" ref="flowExecutor"/>
+    <bean class="org.springframework.webflow.mvc.servlet.FlowHandlerAdapter">
+        <property name="flowExecutor" ref="mainFlowExecutor"/>
     </bean>
 
 
