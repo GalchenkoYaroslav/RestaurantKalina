@@ -18,6 +18,15 @@
     <facet type="Spring" name="Spring">
       <configuration />
     </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="Hibernate" />
+        <datasource-mapping>
+          <factory-entry name="jpa-hibernate" value="3108e22c-631d-413a-ab11-e5e2832591c1" />
+        </datasource-mapping>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
@@ -33,6 +42,16 @@
     <orderEntry type="library" name="Spring-4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Hibernate 4.2.2-4.2.2" level="project" />
     <orderEntry type="library" name="Spring-4.2.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Spring-4.2.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Spring Web Services-2.0.2" level="project" />
+    <orderEntry type="library" name="Spring Integration-4.0.3" level="project" />
+    <orderEntry type="library" name="Spring-4.2.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Spring Web Services-2.0.2" level="project" />
+    <orderEntry type="library" name="Spring Integration-4.0.3" level="project" />
+    <orderEntry type="library" name="Spring-4.2.4.RELEASE" level="project" />
+    <orderEntry type="library" name="JPA 2.1-JPA 2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.38" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.2.4.RELEASE" level="project" />
@@ -59,21 +78,5 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-log4j12:1.7.13" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: log4j:log4j:1.2.15" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
-    <orderEntry type="library" name="Spring-4.2.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.webflow:spring-webflow:2.4.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Spring Web Services-2.0.2" level="project" />
-    <orderEntry type="library" name="Spring Integration-4.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:4.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.2.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Spring-4.2.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.webflow:spring-webflow:2.4.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Spring Web Services-2.0.2" level="project" />
-    <orderEntry type="library" name="Spring Integration-4.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:4.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.2.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Spring-4.2.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.webflow:spring-webflow:2.4.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:4.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.2.4.RELEASE" level="project" />
   </component>
 </module>
