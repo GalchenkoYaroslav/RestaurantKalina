@@ -1,6 +1,7 @@
 <%@ page import="javax.persistence.EntityManager" %>
 <%@ page import="javax.persistence.EntityManagerFactory" %>
 <%@ page import="javax.persistence.Persistence" %>
+<%@ page import="org.hibernate.SessionFactory" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%--
   Created by IntelliJ IDEA.
@@ -24,6 +25,8 @@
 
 <p><spring:message code="messages.registrations"/></p>
 <p><spring:message code="messages.login"/></p>
+
+
 
 </body>
 </html>
