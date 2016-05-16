@@ -30,12 +30,12 @@
 
     <dependencies>
 
+
         <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
             <artifactId>hibernate-jpa-2.1-api</artifactId>
             <version>1.0.0.Final</version>
         </dependency>
-
 
 
         <dependency>
@@ -126,9 +126,8 @@
 
         <dependency>
             <groupId>javax.servlet</groupId>
-           <artifactId>javax.servlet-api</artifactId>
+            <artifactId>javax.servlet-api</artifactId>
             <version>3.0.1</version>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>

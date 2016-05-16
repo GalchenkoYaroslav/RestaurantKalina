@@ -25,7 +25,7 @@
         <module name="RestaurantKalina" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="RestaurantKalina" target="1.5" />
     </bytecodeTargetLevel>
   </component>
